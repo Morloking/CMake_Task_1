@@ -1,6 +1,9 @@
-cmake_minimum_required(VERSION 4.2.1)
+cmake_minimum_required(VERSION 3.22.2)
 
 project(my_first_cmake_project)
 
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 add_executable(my_first_cmake_program
-C:/Users/dyube/source/repos/my_project/main.cpp)
+main.cpp)
